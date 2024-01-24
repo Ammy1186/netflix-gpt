@@ -1,5 +1,5 @@
 # Netflix GPT
-
+firebase live - https://myflixgpt-27d6a.web.app/
 - Create React App
 - Configured TailwindCSS 
 - Header

@@ -1,11 +1,16 @@
 
+import { Provider } from 'react-redux';
 import './App.css';
-import Routes from './Components/Routes';
+import appStore from './Utils/appStore';
+import Body from './Components/Body';
+
 
 
 function App() { 
   return (
-   <Routes />
+    <Provider store={appStore()}>
+      <Body />
+    </Provider>
   );
 }
 
